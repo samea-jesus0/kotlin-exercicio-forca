@@ -6,7 +6,7 @@ fun main(){
     println("Digite a aceleração: ")
     var a = readln().toDouble() // lendo o valor da aceleração
 
-    println("A força resultante é: ${calculoForca(m, a)} N")  // chamando a função para calcular e quando o resultado voltar irá ser mostrado na tela.
+    println("A força resultante é: ${calculoForca(m, a)}")  // chamando a função para calcular e quando o resultado voltar irá ser mostrado na tela.
 }
 
 fun calculoForca(m: Double, a: Double): Double { // a função está esperando dois argumentos Double e irá retornar em Double
